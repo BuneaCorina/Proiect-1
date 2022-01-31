@@ -1,0 +1,113 @@
+.faq {
+	margin: 100px auto;
+	padding: 20px;
+	background: hsl(257, 27%, 26%);
+	width: 1000px;
+	border-radius: 15px;
+	color: white;
+	font-family: Poppins;
+	position: relative;
+}
+.img-faq {
+	height: 300px;
+	width: 350px;
+	vertical-align: center;
+	margin-left: -75px;
+	position: absolute;
+}
+.text-faq {
+	margin-left: 300px;
+}
+.title-faq {
+	text-align: center;
+	margin: 15px auto;
+	font-size: 30px;
+	font-weight: bold;
+}
+.question {
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+.question-text {
+	font-size: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.question-answer {
+	padding-top: 10px;
+	font-size: 12px;
+	width: 90%;
+	display: none;
+	overflow: hidden;
+	transition: all 5s;
+}
+
+.collapsible {
+	background: hsl(257, 27%, 26%);
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.container-boost-knowledge {
+	background: hsl(257, 27%, 26%);
+	background-image: url(../images/bg-boost-mobile.svg);
+	color: white;
+	padding: 50px 15px;
+	text-align: center;
+	font-family: Poppins;
+}
+.text-boost-knowledge {
+	margin: 15px auto;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.get-started {
+	padding: 15px 25px;
+	background: hsl(180, 66%, 49%);
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 30px;
+	text-decoration: none;
+}
+.get-started:hover {
+	border: 1px solid hsl(180, 66%, 49%);
+	background: white;
+	color: hsl(180, 66%, 49%);
+}
+
+
+.footer {
+	padding: 15px 50px;
+	background: hsl(260, 8%, 14%);
+	vertical-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Poppins;
+
+}
+.blue {
+	color: hsl(180, 66%, 49%);
+}
+.fa {
+	
+	letter-spacing: 10px;
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.icon {
+	vertical-align: center;
+	font-size: 25px;
+}

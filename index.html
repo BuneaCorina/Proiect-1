@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/grid.css">
+   <link rel="stylesheet" href="./css/responsive.css">
+  
+  <!-- Link-uri pentru incarcarea celor 2 fonturi - Poppins si Font Awesome -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <!-- .................... --> 
+  
+  <title>HomeSchool</title>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="faq">
+			<!-- POZA -->
+			<div>
+				<img class="img-faq col-xs-3" src="./images/illustration-woman-online-mobile.svg" alt="image not found">
+			</div>
+			<div class="text-faq">
+				<h1 class="title-faq"> FAQ
+				</h1>
+				<!-- INTREBAREA 1 -->
+				<div class="question">
+					<p class="question-text" id="output1"> How many team members can I invite?
+						<button onClick="rotateImg1()" class="collapsible">
+							<img src="./images/icon-arrow-down.svg" alt="image not found" id="img1"/>
+						</button>
+					</p>
+					<p class="question-answer" id="answer1"> 
+						You can invite up to 2 additional users on the Free plan.
+						There is no limit on team members for the Premium plan.
+					</p>
+					<hr>
+				</div>
+				<!-- INTREBAREA 2 -->
+				<div class="question">
+					<p class="question-text" id="output2"> What is the maximum file upload size?
+						<button onClick="rotateImg2()" class="collapsible">
+							<img src="./images/icon-arrow-down.svg" alt="image not found" id="img2"/>
+						</button>
+					</p>
+					<p class="question-answer" id="answer2"> 
+						No more than 2GB. All files in your account must fit your allotted storage space.
+					</p>
+					<hr>					
+				</div>
+				<!-- INTREBAREA 3 -->
+				<div class="question">
+					<p class="question-text" id="output3"> How do I reset my password?
+						<button onClick="rotateImg3()" class="collapsible">
+							<img src="./images/icon-arrow-down.svg" alt="image not found" id="img3"/>
+						</button>
+					</p>
+					<p class="question-answer" id="answer3"> 
+						Click “Forgot password” from the login page or “Change password” from your profile page.
+						A reset link will be emailed to you.
+					</p>
+					<hr>
+				</div>
+				<!-- INTREBAREA 4 -->
+				<div class="question">
+					<p class="question-text" id="output4"> Can I cancel my subscription at any time?
+						<button onClick="rotateImg4()" class="collapsible">
+							<img src="./images/icon-arrow-down.svg" alt="image not found" id="img4"/>
+						</button>
+					</p>
+					<p class="question-answer" id="answer4"> 
+						Yes! Send us a message and we’ll process your request no questions asked.
+					</p>
+					<hr>
+				</div>
+				<!-- INTREBAREA 5 -->
+				<div class="question">
+					<p class="question-text" id="output5"> Do you provide additional support?
+						<button onClick="rotateImg5()" class="collapsible">
+							<img src="./images/icon-arrow-down.svg" alt="image not found" id="img5"/>
+						</button>
+					</p>
+					<p class="question-answer" id="answer5"> 
+						Chat and email support is available 24/7. Phone lines are open during normal business hours.
+					</p>
+					<hr>
+				</div>				
+			</div>
+		</div>
+	</div>
+	
+	<!-- FOOTER cu BUTON -->
+	<div class="container-boost-knowledge">
+		<h1 class="text-boost-knowledge"> Boost your knowledge today
+		</h1>
+		<a class="get-started" href="./signup.html"> Get Started
+		</a>
+	</div>
+	
+	<!-- FOOTER HOME -->
+	<footer>
+		<div class="footer">
+			<h2 class="logo" style="color:white"> Home <span class="blue"> School </span>
+			</h2>
+			<div class="icon">
+				<a class="fa fa-facebook-official" aria-hidden="true" href="https://ro-ro.facebook.com/" target="_blank"></a>
+				<a class="fa fa-instagram" aria-hidden="true" href="https://www.instagram.com/" target="_blank"></a>
+				<a class="fa fa-twitter" aria-hidden="true" href="https://twitter.com/i/flow/login" target="_blank"></a>
+				<a class="fa fa-pinterest" aria-hidden="true" href="https://ro.pinterest.com/login/" target="_blank"></a>
+			</div>
+		</div>
+	</footer>
+  
+
+  <script type="text/javascript" src="./js/javascript.js"> </script>   <!-- Incarcam fiesierul de JS --> 
+</body>
+</html>
